@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "tech-today",
+=======
+  "name": "projecto-ecommerce",
+>>>>>>> 7caefd3ee92ff75a8c6f4817e30d89a6ef8de87e
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +12,14 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+<<<<<<< HEAD
     "react-scripts": "3.4.1"
+=======
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-slick": "^0.26.1",
+    "slick-carousel": "^1.8.1"
+>>>>>>> 7caefd3ee92ff75a8c6f4817e30d89a6ef8de87e
   },
   "scripts": {
     "start": "react-scripts start",
