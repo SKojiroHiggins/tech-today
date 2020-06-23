@@ -16,13 +16,13 @@ body {
 #navbar {
   background: black;
   overflow: auto;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #333333;
 }
 
 #navbar a {
   color: white;
   text-decoration: none;
-  margin: 10px 5px 0 5px;
+  margin: 10px 0 0 0;
 }
 
 #navbar h1 {
@@ -46,13 +46,13 @@ body {
   padding: 25px;
   text-align: center;
   font-size: 1.5rem;
+  /* border-left: 1px solid grey; */
 }
 
 #navbar ul li a:hover, #navbar ul li a.current {
-  background: grey;
+  background: #333333;
   color: white;
   transition: .5s;
-  border-radius: 20px;
 }
 
 .logo-img {
