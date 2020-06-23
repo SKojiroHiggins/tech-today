@@ -5,7 +5,6 @@ const contactPage = () => {
     return (
         <div>
             <Navbar page="contactPage"/>
-
         </div>
     )
 };
