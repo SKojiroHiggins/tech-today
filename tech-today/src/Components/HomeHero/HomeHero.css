@@ -11,7 +11,7 @@
 
 .heroImage{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1496065187959-7f07b8353c55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80") no-repeat center center/cover;
-    height: 940px;
+    height: 840px;
     width: 100%;
     color: white;
     text-align: center;
@@ -21,17 +21,17 @@
 
 .heroImage h1{
     color: #83e0e2;
-    font-size: 80px;
+    font-size: 60px;
 }
 
 .heroImage p{
-    font-size: 30px;
+    font-size: 25px;
     padding-top: 15px
 }
 
 .heroInfo{
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -51,7 +51,7 @@
     border: none;
     cursor: pointer;
     transition: 0.8s;
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: none;
 }
 

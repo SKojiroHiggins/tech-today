@@ -8,7 +8,7 @@ class HomeHero extends React.Component {
             <React.Fragment>
                 <section className="heroSection">
                     <div className="heroImage">
-                        <div id="home" className="heroInfo">
+                        <div className="heroInfo">
                             <h1>Tech Today</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             <button className="btn">Contact Us</button>
