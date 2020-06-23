@@ -13,9 +13,6 @@ const routes = () => {
     return(
         <Router>
             <div>
-                {/* <Route exact path='/' component={Home}/> */}
-                {/* <Route exact path='/products' component={ProductPage}/> */}
-                <Route exact path='/contact' component={ContactPage}/>
                 <Route exact path='/' component={MainPage}/>
                 <Route exact path='/gaming' component={GamingPage}/>
                 <Route exact path='/contact' component={ContactPage}/>
