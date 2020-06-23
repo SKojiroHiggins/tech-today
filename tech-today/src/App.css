@@ -7,13 +7,13 @@
 
 /* Navbar */
 #navbar {
-  background: #349DFF;
-  color: black;
+  background: black;
   overflow: auto;
+  border-bottom: 1px solid grey;
 }
 
 #navbar a {
-  color: black;
+  color: white;
   text-decoration: none;
   margin: 10px 5px 0 5px;
 }
