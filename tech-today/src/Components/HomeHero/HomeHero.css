@@ -5,58 +5,63 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Barlow', sans-serif;
+    text-decoration: none;
 }
 
 
 
 .heroImage{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1496065187959-7f07b8353c55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80") no-repeat center center/cover;
-    height: 840px;
+    height: 930px;
     width: 100%;
     color: white;
     text-align: center;
     display: inline-block;
-    /* clip-path: circle(100% at 60% -85%); */
 }
 
 .heroImage h1{
-    color: #83e0e2;
+    color: #EC008C;
     font-size: 60px;
 }
 
 .heroImage p{
     font-size: 25px;
-    padding-top: 15px
+    padding-top: 15px;
+    margin-bottom: 20px;
 }
 
 .heroInfo{
     position: absolute;
-    top: 55%;
-    left: 50%;
+    top: 65%;
+    left: 30%;
     transform: translate(-50%, -50%);
     color: white;
+    text-align: center;
+    width: 650px;
 }
 
-.heroInfo h1, p, .btn{
+.heroInfo h1 p, .btn{
     padding: 20px;
+    color: white;
 }
 
 /* Button */
 
 .btn{
-    background: #3e89a7;
+    background: #393092;
     border-radius: 5px;
     padding: 15px 15px 15px 15px;
     color: white;
     border: none;
     cursor: pointer;
     transition: 0.8s;
-    font-size: 16px;
+    font-size: 20px;
     text-decoration: none;
 }
 
 .btn:hover{
-    background: #f88379;
+    background: #EC008C;
     margin-top: 10px;
     border-radius: 5px;
 }
+
