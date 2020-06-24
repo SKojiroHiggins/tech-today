@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import MyRouter from './Components/Routes/Routes'
+import ContentHero from './Components/ContentHero/contentHero';
 
 function App() {
   return (
