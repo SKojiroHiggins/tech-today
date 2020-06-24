@@ -1,7 +1,8 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import HomeHero from "../HomeHero/HomeHero";
-import Footer from '../Footer/Footer'
+import Footer from '../Footer/Footer';
+
 
 const MainPage = () => {
     return (

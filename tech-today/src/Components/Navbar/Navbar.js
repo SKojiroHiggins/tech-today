@@ -37,7 +37,7 @@ const navbar = (props) => {
                     <span></span>
                     <span></span>
                     <ul id="menu">
-                        <li><Link className={mainPageClass} to="/">Home</Link></li>
+                        <li><Link className={mainPageClass} to="/home">Home</Link></li>
                         <li><Link className={gamingPageClass} to="/gaming">Gaming</Link></li>
                         <li><Link className={sciencePageClass} to="/science">Science</Link></li>
                         <li><Link className={spacePageClass} to="/space">Space</Link></li>
