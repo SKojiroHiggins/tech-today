@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const navbar = (props) => {
     let mainPageClass, gamingPageClass, sciencePageClass, spacePageClass, contactPageClass;
@@ -29,6 +29,22 @@ const navbar = (props) => {
                     <li><Link className={contactPageClass} to="/contact">Contact</Link></li>
                 </ul>
             </nav>
+            <nav role="navigation">
+                <div id="menuToggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="menu">
+                        <li><Link className={mainPageClass} to="/">Home</Link></li>
+                        <li><Link className={gamingPageClass} to="/gaming">Gaming</Link></li>
+                        <li><Link className={sciencePageClass} to="/science">Science</Link></li>
+                        <li><Link className={spacePageClass} to="/space">Space</Link></li>
+                        <li><Link className={contactPageClass} to="/contact">Contact</Link></li>
+                    </ul>
+                </div>
+            </nav>
+
         </div>
     )
 }
