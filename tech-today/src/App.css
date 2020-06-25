@@ -6,18 +6,25 @@
 }
 
 /* Body */
+<<<<<<< HEAD
 html, body {
   min-height: 100%;
 }
+=======
+>>>>>>> 5ae02c75df268bac97209b765023cd73e6886468
 body {
   background-color: white;
+  
 }
 
 /* Navbar */
+<<<<<<< HEAD
 
 .hamburger {
   min-height: 100%;
 }
+=======
+>>>>>>> 5ae02c75df268bac97209b765023cd73e6886468
 #navbar {
   background: black;
   overflow: auto;
@@ -209,7 +216,7 @@ body {
   overflow: hidden;
   background-color: #000;
 }
-
+f
 .masthead {
   position: absolute;
   width: 100%;
