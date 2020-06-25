@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 import MyRouter from './Components/Routes/Routes'
-import ContentHero from './Components/ContentHero/contentHero';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (

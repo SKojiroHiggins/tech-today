@@ -7,7 +7,8 @@ import MainPage from '../MainPage/MainPage';
 import GamingPage from '../GamingPage/GamingPage';
 import SciencePage from '../SciencePage/SciencePage';
 import SpacePage from '../SpacePage/SpacePage';
-
+import Login from '../User/Login/login';
+import Signup from '../User/Signup/signup';
 
 const routes = () => {
     return(
@@ -18,6 +19,8 @@ const routes = () => {
                 <Route exact path='/contact' component={ContactPage}/>
                 <Route exact path='/science' component={SciencePage}/>
                 <Route exact path='/space' component={SpacePage}/>
+                <Route exact path='/Signup' component={Signup}/>
+                <Route exact path='/Login' component={Login}/>
 
             </div>
         </Router>
