@@ -48,7 +48,7 @@ const Footer = () => {
                         <li>Ethics Statement</li>
                     </ul>
                 </div>
-
+                
 
             </div>
 
