@@ -30,7 +30,7 @@ const navbar = (props) => {
                     <li><Link className={contactPageClass} to="/contact">Contact</Link></li>
                 </ul>
             </nav>
-            <nav role="navigation">
+            <nav classname="hamburger" role="navigation">
                 <div id="menuToggle">
                     <input type="checkbox" />
                     <span></span>

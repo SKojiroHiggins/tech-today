@@ -6,13 +6,18 @@
 }
 
 /* Body */
-
+html, body {
+  min-height: 100%;
+}
 body {
   background-color: white;
 }
 
 /* Navbar */
 
+.hamburger {
+  min-height: 100%;
+}
 #navbar {
   background: black;
   overflow: auto;
@@ -75,6 +80,7 @@ body {
   margin-top: -30px;
   display: block;
   position: relative;
+  min-height: 100%;
   top: 80px;
   left: 50px;
   z-index: 1;
@@ -142,7 +148,7 @@ body {
 }
 
 #menu {
-  height: 100vh;
+  height: 100%;
   position: absolute;
   width: 300px;
   margin: -100px 0 0 -50px;
