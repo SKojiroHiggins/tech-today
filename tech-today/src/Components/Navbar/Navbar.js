@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 const navbar = (props) => {
-    let mainPageClass, gamingPageClass, sciencePageClass, spacePageClass, contactPageClass;
+    let mainPageClass, gamingPageClass, sciencePageClass, spacePageClass, contactPageClass, signupPageClass, loginPageClass;
 
     if (props.page == "mainPage") {
         mainPageClass = 'current';
@@ -15,6 +15,10 @@ const navbar = (props) => {
         spacePageClass = 'current';
     } else if (props.page == "contactPage") {
         contactPageClass = 'current';
+    } else if (props.page == "signupPage") {
+        signupPageClass = 'current';
+    } else if (props.page == "loginPage") {
+        loginPageClass = 'current';
     }
 
     return (
@@ -28,6 +32,8 @@ const navbar = (props) => {
                     <li><Link className={sciencePageClass} to="/science">Science</Link></li>
                     <li><Link className={spacePageClass} to="/space">Space</Link></li>
                     <li><Link className={contactPageClass} to="/contact">Contact</Link></li>
+                    <li><Link className={signupPageClass} to="/SignUp">SignUp</Link></li>
+                    <li><Link className={loginPageClass} to="/Login">Login</Link></li>
                 </ul>
             </nav>
             <nav classname="hamburger" role="navigation">
