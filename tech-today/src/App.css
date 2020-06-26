@@ -6,12 +6,25 @@
 }
 
 /* Body */
+<<<<<<< HEAD
+html, body {
+  min-height: 100%;
+}
+=======
+>>>>>>> 5ae02c75df268bac97209b765023cd73e6886468
 body {
   background-color: white;
   
 }
 
 /* Navbar */
+<<<<<<< HEAD
+
+.hamburger {
+  min-height: 100%;
+}
+=======
+>>>>>>> 5ae02c75df268bac97209b765023cd73e6886468
 #navbar {
   background: black;
   overflow: auto;
@@ -74,6 +87,7 @@ body {
   margin-top: -30px;
   display: block;
   position: relative;
+  min-height: 100%;
   top: 80px;
   left: 50px;
   z-index: 1;
@@ -141,7 +155,7 @@ body {
 }
 
 #menu {
-  height: 60vh;
+  height: 100%;
   position: absolute;
   width: 300px;
   margin: -100px 0 0 -50px;

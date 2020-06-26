@@ -32,8 +32,8 @@
 
 .heroInfo{
     position: absolute;
-    top: 65%;
-    left: 30%;
+    top: 55%;
+    left: 33%;
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
@@ -65,3 +65,35 @@
     border-radius: 5px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 500px){
+    .heroImage{
+        height: 630px;
+    }
+    .heroImage h1{
+        font-size: 30px;
+    }
+    .heroImage p{
+        font-size: 15px;
+    }
+    .btn{
+        font-size: 13px;
+        padding: 10px 10px 10px 10px;
+    }
+    .heroInfo{
+        left: 50%;
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 620px) and (max-width: 1000px){
+    .heroInfo{
+        left: 50%;
+        width: 550px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1024px){
+    .heroInfo{
+        left: 50%;
+    }
+}
