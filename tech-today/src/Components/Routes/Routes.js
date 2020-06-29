@@ -8,6 +8,8 @@ import GamingPage from '../GamingPage/GamingPage';
 import SciencePage from '../SciencePage/SciencePage';
 import SpacePage from '../SpacePage/SpacePage';
 import LandingPage from '../LandingPage/LandingPage';
+import SignUp from '../User/Signup/signup';
+import Login from '../User/Login/login';
 
 const routes = () => {
     return (
@@ -19,6 +21,8 @@ const routes = () => {
                 <Route exact path='/contact' component={ContactPage} />
                 <Route exact path='/science' component={SciencePage} />
                 <Route exact path='/space' component={SpacePage} />
+                <Route exact path='/signup' component={SignUp} />
+                <Route exact path='/login' component={Login} />
 
             </div>
         </Router>

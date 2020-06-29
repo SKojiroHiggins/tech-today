@@ -8,9 +8,8 @@ const GamingPage = () => {
     return (
         <div>
             <Navbar page="gamingPage"/>
-            <Footer />
-
             <ContentHero />
+            <Footer />
         </div>
     )
 };
