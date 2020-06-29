@@ -16,11 +16,12 @@ const homeContent = () => {
 
             <CardGroup>
                 <Card>
-                <a target="_blank" href="https://nyti.ms/2NEhe5q">
+                <a target="_blank" href="https://nyti.ms/3ib3Ljx">
                     <Card.Img variant="top" src="https://wrctr.co/3g5DS2D" />
                     </a>
                     <Card.Body>
-                        <Card.Title><a href ="https://nyti.ms/3gaQllx">The Best Compact Mechanical Keyboards</a>
+                        <Card.Title>
+                            <a target="_blank"href ="https://nyti.ms/3ib3Ljx">The Best Compact Mechanical Keyboards</a>
                         </Card.Title>
                         <Card.Text>
                         A compact mechanical keyboard takes up less space on a desk than a regular one—but you might need to be prepared to give up some keys in return.

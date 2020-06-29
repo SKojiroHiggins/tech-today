@@ -32,13 +32,10 @@ const navbar = (props) => {
                     <li><Link className={sciencePageClass} to="/science">Science</Link></li>
                     <li><Link className={spacePageClass} to="/space">Space</Link></li>
                     <li><Link className={contactPageClass} to="/contact">Contact</Link></li>
-<<<<<<< HEAD
                     <li><Link className={signupPageClass} to="/SignUp">Sign Up</Link></li>
                     <li><Link className={loginPageClass} to="/Login">Login</Link></li>
-=======
                     <li><Link className="signInPage" to="/signIn">Sign In</Link></li>
 
->>>>>>> 4a7b9c33db7b65ce279d919cefcacf9e8c2bba63
                 </ul>
             </nav>
             <nav classname="hamburger" role="navigation">
@@ -53,11 +50,8 @@ const navbar = (props) => {
                         <li><Link className={sciencePageClass} to="/science">Science</Link></li>
                         <li><Link className={spacePageClass} to="/space">Space</Link></li>
                         <li><Link className={contactPageClass} to="/contact">Contact</Link></li>
-<<<<<<< HEAD
                         <li><Link className={signupPageClass} to="/SignUp">Sign In</Link></li>
-=======
                         <li><Link to="/signIn">Sign In</Link></li>
->>>>>>> 4a7b9c33db7b65ce279d919cefcacf9e8c2bba63
                     </ul>
                 </div>
             </nav>
