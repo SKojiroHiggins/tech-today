@@ -4,7 +4,7 @@ import CardGroup from 'react-bootstrap/CardGroup';
 import '../HomeContent/HomeContent.css'
 
 
-const homeContent = () => {
+const HomeContent = () => {
     return (
         <div className="card-container">
             <Card>
@@ -16,12 +16,11 @@ const homeContent = () => {
 
             <CardGroup>
                 <Card>
-                <a target="_blank" href="https://nyti.ms/3ib3Ljx">
+                <a target="_blank" href="https://nyti.ms/2NEhe5q">
                     <Card.Img variant="top" src="https://wrctr.co/3g5DS2D" />
                     </a>
                     <Card.Body>
-                        <Card.Title>
-                            <a target="_blank"href ="https://nyti.ms/3ib3Ljx">The Best Compact Mechanical Keyboards</a>
+                        <Card.Title><a href ="https://nyti.ms/3gaQllx">The Best Compact Mechanical Keyboards</a>
                         </Card.Title>
                         <Card.Text>
                         A compact mechanical keyboard takes up less space on a desk than a regular one—but you might need to be prepared to give up some keys in return.
@@ -70,7 +69,7 @@ const homeContent = () => {
         </div>
     );
 }
-export default homeContent;
+export default HomeContent;
 
 
 

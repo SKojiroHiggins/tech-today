@@ -5,6 +5,15 @@ h3,label {
   font-weight: 500;
   font-family: 'Fira Sans', sans-serif;
 }
+
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
 .auth-inner {
   width: 550px;
   margin: 5rem auto;
@@ -14,12 +23,13 @@ h3,label {
   border-radius: 15px;
   transition: all .3s;
 }
-.form-control:focus {
-  border-color: rgb(63, 0, 38);
+
+.auth-wrapper .form-control:focus {
+  border-color: #167bff;
   box-shadow: none;
 }
 
-h3 {
+.auth-wrapper h3 {
   text-align: center;
   margin: 0;
   line-height: 1;

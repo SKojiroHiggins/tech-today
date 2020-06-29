@@ -10,6 +10,8 @@ import SpacePage from '../SpacePage/SpacePage';
 import Login from '../User/Login/login';
 import Signup from '../User/Signup/signup';
 import LandingPage from '../LandingPage/LandingPage';
+import SignUp from '../User/Signup/signup';
+import Login from '../User/Login/login';
 
 
 const routes = () => {

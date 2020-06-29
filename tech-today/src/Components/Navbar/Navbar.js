@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 const navbar = (props) => {
-    let mainPageClass, gamingPageClass, sciencePageClass, spacePageClass, contactPageClass, signupPageClass, loginPageClass;
+    let mainPageClass, gamingPageClass, sciencePageClass, spacePageClass, contactPageClass, signInPageClass, loginPageClass;
 
     if (props.page === "mainPage") {
         mainPageClass = 'current';
