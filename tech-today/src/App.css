@@ -201,7 +201,7 @@ body {
   padding-left: 12px;
   padding-right: 63px;
   display: flex;
-  margin-left: 115px;
+  margin-left: 109px;
 }
 
 .wrapper {
@@ -254,6 +254,12 @@ body {
   animation-fill-mode: both;
   animation-duration: 1.25s;
   animation-name: fadeInDown;
+}
+
+@media (max-width: 320px) {
+  .content .button {
+    margin-left: 60px;
+  }
 }
 
 /* Curtains */
