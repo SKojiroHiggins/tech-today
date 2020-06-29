@@ -8,11 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.5.0",
     "react": "^16.13.1",
-<<<<<<< HEAD
     "react-bootstrap": "^1.0.1",
-=======
-    "react-adsense": "^0.1.0",
->>>>>>> 05bebe10c0e7d2128a9ff7b708471f35519c9353
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1"

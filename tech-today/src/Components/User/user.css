@@ -5,15 +5,6 @@ h3,label {
   font-weight: 500;
   font-family: 'Fira Sans', sans-serif;
 }
-
-
-.auth-wrapper {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: left;
-}
-
 .auth-inner {
   width: 550px;
   margin: 5rem auto;
@@ -23,13 +14,12 @@ h3,label {
   border-radius: 15px;
   transition: all .3s;
 }
-
-.auth-wrapper .form-control:focus {
-  border-color: #167bff;
+.form-control:focus {
+  border-color: rgb(63, 0, 38);
   box-shadow: none;
 }
 
-.auth-wrapper h3 {
+h3 {
   text-align: center;
   margin: 0;
   line-height: 1;
@@ -51,4 +41,10 @@ h3,label {
 
 .forgot-password a {
   color: #167bff;
+}
+
+.btn-primary{
+  background-color: rgb(63, 0, 38) !important;
+  color: #fff;
+  border-color: none !important;
 }
