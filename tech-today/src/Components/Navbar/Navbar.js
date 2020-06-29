@@ -5,19 +5,19 @@ import { Link } from 'react-router-dom';
 const navbar = (props) => {
     let mainPageClass, gamingPageClass, sciencePageClass, spacePageClass, contactPageClass, signupPageClass, loginPageClass;
 
-    if (props.page == "mainPage") {
+    if (props.page === "mainPage") {
         mainPageClass = 'current';
-    } else if (props.page == "gamingPage") {
+    } else if (props.page === "gamingPage") {
         gamingPageClass = 'current';
-    } else if (props.page == "sciencePage") {
+    } else if (props.page === "sciencePage") {
         sciencePageClass = 'current';
-    } else if (props.page == "spacePage") {
+    } else if (props.page === "spacePage") {
         spacePageClass = 'current';
-    } else if (props.page == "contactPage") {
+    } else if (props.page === "contactPage") {
         contactPageClass = 'current';
-    } else if (props.page == "signupPage") {
+    } else if (props.page === "signupPage") {
         signupPageClass = 'current';
-    } else if (props.page == "loginPage") {
+    } else if (props.page === "loginPage") {
         loginPageClass = 'current';
     }
 

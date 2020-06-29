@@ -11,11 +11,12 @@ import Login from '../User/Login/login';
 import Signup from '../User/Signup/signup';
 import LandingPage from '../LandingPage/LandingPage';
 
+
 const routes = () => {
     return (
         <Router>
             <div>
-                <Route exact path='/' component={MainPage}/>
+                <Route exact path='/home' component={MainPage}/>
                 <Route exact path='/gaming' component={GamingPage}/>
                 <Route exact path='/contact' component={ContactPage}/>
                 <Route exact path='/science' component={SciencePage}/>
@@ -23,7 +24,7 @@ const routes = () => {
                 <Route exact path='/Signup' component={Signup}/>
                 <Route exact path='/Login' component={Login}/>
                 <Route exact path='/' component={LandingPage} />
-                <Route exact path='/home' component={MainPage} />
+
                 
             </div>
         </Router>
