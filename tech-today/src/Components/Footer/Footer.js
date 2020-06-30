@@ -23,7 +23,7 @@ const Footer = () => {
                         <h3>Subscribe to our newsletter</h3>
                         <p>Looking to receive the latest news and updates?</p>
                         <input className="footer__input" type="text" placeholder="Your email adress"></input>
-                        <button className="footer__btn">Sign Up</button>
+                        <button className="footer__vergebtn">Sign Up</button>
                     </div>
                 </div>
                 <div className="footer__content-links">
@@ -52,9 +52,9 @@ const Footer = () => {
 
             </div>
 
-            <div className="footer__bottom">
+            <div className="footer__bottom-font">
                 <div className="footer__bottom-copyright">
-                    <h3>© 2020 Vox Media, LLC. All Rights Reserved</h3>
+                    <h3 id="footer__bottom-font">© 2020 Vox Media, LLC. All Rights Reserved</h3>
                 </div>
             </div>
         </div>
