@@ -40,14 +40,14 @@
     width: 650px;
 }
 
-.heroInfo h1 p, .btn{
+.heroInfo h1 p, .darwinHero-btn{
     padding: 20px;
     color: white;
 }
 
 /* Button */
 
-.btn{
+.darwinHero-btn{
     background: #393092;
     border-radius: 5px;
     padding: 15px 15px 15px 15px;
@@ -59,11 +59,16 @@
     text-decoration: none;
 }
 
-.btn:hover{
+.darwinHero-btn:hover{
     background: #EC008C;
     margin-top: 10px;
     border-radius: 5px;
+    text-decoration: none;
+    color: white;
 }
+
+
+/* Media Queries Start Here */
 
 @media screen and (min-width: 320px) and (max-width: 500px){
     .heroImage{
@@ -75,7 +80,7 @@
     .heroImage p{
         font-size: 15px;
     }
-    .btn{
+    .darwinHero-btn{
         font-size: 13px;
         padding: 10px 10px 10px 10px;
     }
