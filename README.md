@@ -1,20 +1,18 @@
-# Tech Today
+# The Verge
 
 # Introduction
 
-This project is focused on redesigning a popular website, where we have implemented design thinking parterns, full-stack programming, agile methodologies and presentation skills.  
-Below you will find a list of requirements to help guide you with this project. 
+This project is focused on redesigning a popular website in this case "The Verge", where we have implemented design thinking parterns, full-stack programming, agile methodologies and the most important being teamwork.  
+Below you will find a list of requirements included, to help guide you with this project. 
 
-# Requirements
+# The project includes the following...
 
-Design Thinking Requirements
-
-- 2 Personas
-- Wireframe
-- The website must contain the following:
-- At least 4 views (pages).
-- Routing must be implemented.
-- Each view should have a Navigation Bar and Footer with links to social media
+- Design Thinking process.
+- 2 Personas.
+- Wireframe.
+- 7 pages included.
+- React Routing implemented.
+- Each Page should have a Navigation Bar and Footer with links to social media
 
 # Laguages and Libraries
 
@@ -22,6 +20,8 @@ Design Thinking Requirements
 - JSX
 - CSS
 - MongoDB
+- Bootstrap
+- Mongoose
 
 
 # Responsive design
@@ -29,7 +29,7 @@ Design Thinking Requirements
 
 # Get Started 
 
-- Use Create React App to create a component based application to display your page.
+- Use Create React App to create a component based application to display the page.
 
 # npm start
 
@@ -43,7 +43,7 @@ You will also see any lint errors in the console.
 
 Use Netlify to deploy the website to the cloud.
 
-# Website Link
+# Visit Website
  ......
 
 
