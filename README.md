@@ -7,7 +7,7 @@ Below you will find a list of requirements included, to help guide you with this
 
 # The project includes the following...
 
-- Design Thinking process.
+- Design Thinking patterns.
 - 2 Personas.
 - Wireframe.
 - 7 pages included.
