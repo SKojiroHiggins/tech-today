@@ -12,13 +12,10 @@
     "express": "^4.17.1",
     "mongoose": "^5.9.20",
     "react": "^16.13.1",
-<<<<<<< HEAD
     "react-bootstrap": "^1.0.1",
     "react-adsense": "^0.1.0",
-=======
     "react-adsense": "^0.1.0",
     "react-bootstrap": "^1.0.1",
->>>>>>> origin/dev
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.1"
