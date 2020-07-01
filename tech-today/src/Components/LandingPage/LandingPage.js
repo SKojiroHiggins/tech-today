@@ -1,4 +1,4 @@
-import React, { useReducer } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 const LandingPage = () => {  
@@ -7,7 +7,7 @@ const LandingPage = () => {
             <div className="wrapper">
                 <div className="masthead">
                     <div className="content">
-                        <h1>Tech Today</h1>
+                        <h1>The Verge</h1>
                         <h3>Gaming/Science/Space</h3>
                         <Link to="/home" className="button">START!</Link>
                     </div>

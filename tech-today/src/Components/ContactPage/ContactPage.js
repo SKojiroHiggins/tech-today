@@ -8,35 +8,35 @@ const contactPage = () => {
     return (
         <div>
             <Navbar page="contactPage" />
-            <div class="contactTitle">
+            <div class="contactTitle--0">
                 <h4 className="contactTitleText">Want To Contact Us?</h4>
             </div>
             <div class="contactDecor-div"></div>
             <section className="contactForm">
-                <div className="formColor">
+                <div className="formColor-decor">
                     <div>
-                        <h2>Our Personal Information</h2>
-                        <h3>(555) 666-7777</h3>
-                        <h3>tech.today@gmail.com</h3>
-                        <h3>123 Main Street</h3>
+                        <h2 className="InfoTitle-0">Our Personal Information</h2>
+                        <h3 className="Info-H3s">(555) 666-7777</h3>
+                        <h3 className="Info-H3s">theverge@gmail.com</h3>
+                        <h3 className="Info-H3s">123 Main Street</h3>
                     </div>
                 </div>
-                <div className="container">
-                    <form name="contact" method="POST">
+                <div className="darwinFormContainer">
+                    <form className="darwinForm" name="contact" method="POST" action="https://formsubmit.co/darwingaldamez5@gmail.com">
                         <label for="fname">First Name</label>
-                        <input type="text" className="fname" id="fname" name="firstname" placeholder="Your name.." required />
+                        <input type="text" className="fname" id="input-0" name="firstname" placeholder="Your name.." required />
 
                         <label for="lname">Last Name</label>
-                        <input type="text" className="lname" id="lname" name="lastname" placeholder="Your last name.." required />
+                        <input type="text" className="lname" id="input-0" name="lastname" placeholder="Your last name.." required />
 
                         <label for="email">Email</label>
-                        <input type="text" className="email" id="email" name="email" placeholder="Your email.." required />
+                        <input type="text" className="email" id="input-0" name="email" placeholder="Your email.." required />
 
                         <label for="message">Message</label>
-                        <textarea className="message" id="message" name="message" cols="30" rows="10" placeholder="Write something.."></textarea>
+                        <textarea className="contactMessage" id="message" name="message" cols="30" rows="10" placeholder="Write something.."></textarea>
 
                         <div className="zoomBtn-div">
-                            <input type="submit" value="Submit" name="submit" />
+                            <input type="submit" value="Submit" name="submit" className="ContactSubmit-BTN" />
                         </div>
                     </form>
                 </div>

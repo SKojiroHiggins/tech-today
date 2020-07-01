@@ -239,7 +239,7 @@ body {
   color: #aef;
   letter-spacing: -.85pt;
   opacity: 0;
-  -webkit-backface-visibility: hidden;
+  /* -webkit-backface-visibility: hidden; */
   animation-delay: 2s;
   animation-fill-mode: both;
   animation-duration: .75s;
@@ -252,7 +252,7 @@ body {
   letter-spacing: 1pt;
   color: #f88379;
   opacity: 0;
-  -webkit-backface-visibility: hidden;
+  /* -webkit-backface-visibility: hidden; */
   animation-delay: 1.55s;
   animation-fill-mode: both;
   animation-duration: 1.25s;
