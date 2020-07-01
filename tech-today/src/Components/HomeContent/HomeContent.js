@@ -16,7 +16,7 @@ const HomeContent = () => {
 
             <CardGroup>
                 <Card>
-                <a target="_blank" href="https://nyti.ms/2NEhe5q">
+                <a target="_blank" rel="noopener noreferrer" href="https://nyti.ms/2NEhe5q">
                     <Card.Img variant="top" src="https://wrctr.co/3g5DS2D" />
                     </a>
                     <Card.Body>
@@ -33,11 +33,11 @@ const HomeContent = () => {
                 </Card>
 
                 <Card>
-                <a target="_blank" href="https://www.nytimes.com/wirecutter/reviews/best-couch-co-op-nintendo-switch-games/">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/wirecutter/reviews/best-couch-co-op-nintendo-switch-games/">
                     <Card.Img variant="top" src="https://wrctr.co/31onwOx" />
                     </a>
                     <Card.Body>
-                    <a target="_blank" href="https://nyti.ms/2NEhe5q">
+                    <a target="_blank" rel="noopener noreferrer" href="https://nyti.ms/2NEhe5q">
                         <Card.Title>19 Video Games to Play When You Need to Relax</Card.Title>
                         </a>
                         <Card.Text>
@@ -50,11 +50,11 @@ const HomeContent = () => {
                 </Card>
                 
                 <Card>
-                    <a target="_blank" href="https://nyti.ms/2NEhe5q">
+                    <a target="_blank" rel="noopener noreferrer" href="https://nyti.ms/2NEhe5q">
                     <Card.Img variant="top" src="https://wrctr.co/38a4nBt" />
                     </a>
                     <Card.Body>
-                    <a target="_blank" href="https://nyti.ms/2NEhe5q">
+                    <a target="_blank" rel="noopener noreferrer" href="https://nyti.ms/2NEhe5q">
                         <Card.Title>5 of the Best Couch Co-op Games for Nintendo Switch</Card.Title>
                         </a>
                         <Card.Text>

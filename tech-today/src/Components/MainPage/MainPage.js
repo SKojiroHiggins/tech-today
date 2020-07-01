@@ -3,7 +3,6 @@ import Navbar from '../Navbar/Navbar';
 import HomeHero from "../HomeHero/HomeHero";
 import HomeContent from '../HomeContent/HomeContent';
 import Footer from '../Footer/Footer';
-import HomeContent from '../HomeContent/HomeContent';
 
 
 const MainPage = () => {
