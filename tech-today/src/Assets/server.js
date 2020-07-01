@@ -2,14 +2,13 @@ const express = require('express');
 const app = express();
 const PORT = 5000;
 const mongoose = require('mongoose');
-const {MONGOURI} = require('./Assets/keys/keys');
-
-require('./Assets/models/user');
+require("dotenv").config();
+require('./models/user');
 
 app.use(express.json())
-app.use(require('./Assets/routes/auth'));
+app.use(require('./routes/auth'));
 
-mongoose.connect(MONGOURI, {
+mongoose.connect(process.env.MONGOURI, {
   useNewUrlParser:true,
   useUnifiedTopology: true
 });

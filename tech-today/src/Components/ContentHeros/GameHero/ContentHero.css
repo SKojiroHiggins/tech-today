@@ -1,13 +1,21 @@
-.card-img{
+
+/* .games-hero{
   opacity: .3;
   height: 35rem !important;
+}
+.sciences-hero{
+  opacity: .3;
+  height: 35rem !important;
+} */
+.spaces-hero{
+  filter: sepia(1) contrast(.5);
 }
 .card-img-overlay{
   text-align: center;
   margin-top: 10rem;
   
 }
-.card-title{
+.gaming-title{
   font-size: 35px !important;
   font-weight: bold !important;   
 }
