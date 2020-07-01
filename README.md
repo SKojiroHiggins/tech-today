@@ -47,7 +47,7 @@ You will also see any lint errors in the console.
 Use Netlify to deploy the website to the cloud.
 
 # Visit Website
- ......
+ https://r2h-the-verge-clone.netlify.app/
 
 
 
