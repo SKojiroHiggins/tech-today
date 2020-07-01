@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
-import ContentHero from '../ContentHero/contentHero';
 import Footer from '../Footer/Footer';
 import ScienceHero from '../ContentHeros/ScienceHero/ScienceHero';
 import ScienceContent from '../Content/Science/ScienceContent';

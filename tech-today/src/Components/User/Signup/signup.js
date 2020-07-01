@@ -1,7 +1,8 @@
 import Navbar from '../../Navbar/Navbar';
 import '../../User/user.css'; 
 import React, { useState } from "react";
-import {useHistory} from "react-router-dom";
+import {Link, useHistory} from "react-router-dom";
+
 
 
 const SignUp = () => {
@@ -87,7 +88,7 @@ const SignUp = () => {
                     Sign Up
             </button>
             <p className="forgot-password text-right">
-                Already registered <a href="login">Login?</a>
+                Already registered? <Link to="/Login">Login</Link>
             </p>
         </form>
         </div>
