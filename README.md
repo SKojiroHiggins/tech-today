@@ -27,9 +27,12 @@ Below you will find a list of requirements included, to help guide you with this
 # Responsive design
 - Both tablet and mobile
 
-# Get Started 
-
+# Get Started
+- Open Terminal or Command line interface and clone the repo.
 - Use Create React App to create a component based application to display the page.
+
+# npm install
+- Run this to get your node_modules that include all the packages used.
 
 # npm start
 
