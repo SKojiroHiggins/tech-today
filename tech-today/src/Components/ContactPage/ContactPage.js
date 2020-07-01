@@ -22,7 +22,7 @@ const contactPage = () => {
                     </div>
                 </div>
                 <div className="darwinFormContainer">
-                    <form className="darwinForm" name="contact" method="POST" action="https://formsubmit.co/darwingaldamez5@gmail.com">
+                    <form className="darwinForm" name="contact" method="POST">
                         <label for="fname">First Name</label>
                         <input type="text" className="fname" id="input-0" name="firstname" placeholder="Your name.." required />
 
