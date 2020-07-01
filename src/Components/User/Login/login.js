@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import Navbar from '../../Navbar/Navbar';
-import '../../User/user.css';
+import '../user.css';
 import { useHistory } from 'react-router-dom';
 
 const Login = () => {

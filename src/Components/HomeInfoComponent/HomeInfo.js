@@ -1,5 +1,5 @@
 import React from "react";
-import "../HomeInfoComponent/HomeInfo.css";
+import "./HomeInfo.css";
 
 class HomeTopInfo extends React.Component{
     render(){

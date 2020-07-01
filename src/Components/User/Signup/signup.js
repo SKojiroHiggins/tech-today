@@ -1,5 +1,5 @@
 import Navbar from '../../Navbar/Navbar';
-import '../../User/user.css'; 
+import '../user.css'; 
 import React, { useState } from "react";
 import {Link, useHistory} from "react-router-dom";
 
