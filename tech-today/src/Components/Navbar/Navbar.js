@@ -32,7 +32,6 @@ const navbar = (props) => {
                     <li><Link className={contactPageClass} to="/contact">Contact</Link></li>
                     {/* <li><Link className={signupPageClass} to="/SignUp">Sign Up</Link></li> */}
                     {/* <li><Link className={loginPageClass} to="/Login">Login</Link></li> */}
-                    <li><Link className="signInPage" to="/Signup">Sign In</Link></li>
                     <li><Link className="signInPage" to="/Signup">Sign Up</Link></li>
                 </ul>
             </nav>
@@ -50,7 +49,6 @@ const navbar = (props) => {
                         <li><Link className={contactPageClass} to="/contact">Contact</Link></li>
                         <li><Link to="/Signup">Sign Up</Link></li>
                         {/* <li><Link className={signupPageClass} to="/signup">Sign In</Link></li> */}
-                        <li><Link to="/Signup">Sign In</Link></li>
                     </ul>
                 </div>
             </nav>

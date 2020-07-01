@@ -1,12 +1,8 @@
 
-/* .games-hero{
+.card-img{
   opacity: .3;
   height: 35rem !important;
 }
-.sciences-hero{
-  opacity: .3;
-  height: 35rem !important;
-} */
 .spaces-hero{
   filter: sepia(1) contrast(.5);
 }
