@@ -1,4 +1,7 @@
-
+.card-img{
+  opacity: .3;
+  height: 35rem !important;
+}
 /* .games-hero{
   opacity: .3;
   height: 35rem !important;

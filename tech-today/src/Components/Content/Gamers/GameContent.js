@@ -12,15 +12,9 @@ const GameContent = () => {
                     <span className="read-link" >Read More</span>
                 </Card.Header>
 
-<<<<<<< HEAD:tech-today/src/Components/Content/Gamers/GameContent.js
             <CardGroup className="card-in-home">
                 <Card className="cards-box" border="warning">
                 <a target="_blank" href="https://nyti.ms/2NEhe5q">
-=======
-            <CardGroup>
-                <Card>
-                <a target="_blank" rel="noopener noreferrer" href="https://nyti.ms/2NEhe5q">
->>>>>>> bb9d47e19031288d2498ddc274fcc1dead3c7886:tech-today/src/Components/HomeContent/HomeContent.js
                     <Card.Img variant="top" src="https://wrctr.co/3g5DS2D" />
                 </a>
                     <Card.Body>
@@ -38,7 +32,6 @@ const GameContent = () => {
                     </Card.Footer>
                 </Card>
 
-<<<<<<< HEAD:tech-today/src/Components/Content/Gamers/GameContent.js
                 <Card className="cards-box" border="danger">
                 <a target="_blank" href="https://www.nytimes.com/wirecutter/reviews/best-couch-co-op-nintendo-switch-games/">
                     <Card.Img variant="top" src="https://wrctr.co/31onwOx" />
@@ -47,15 +40,6 @@ const GameContent = () => {
                         <a className="homeContent-text" target="_blank" href="https://nyti.ms/2NEhe5q">
                         
                         <Card.Title className="home-j-title">19 Video Games to Play When You Need to Relax</Card.Title>
-=======
-                <Card>
-                <a target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/wirecutter/reviews/best-couch-co-op-nintendo-switch-games/">
-                    <Card.Img variant="top" src="https://wrctr.co/31onwOx" />
-                    </a>
-                    <Card.Body>
-                    <a target="_blank" rel="noopener noreferrer" href="https://nyti.ms/2NEhe5q">
-                        <Card.Title>19 Video Games to Play When You Need to Relax</Card.Title>
->>>>>>> bb9d47e19031288d2498ddc274fcc1dead3c7886:tech-today/src/Components/HomeContent/HomeContent.js
                         </a>
                         <Card.Text>
                         If you’re stuck inside and need something to help reduce your anxiety, these relaxed video games will get the job done.
@@ -66,7 +50,6 @@ const GameContent = () => {
                     </Card.Footer>
                 </Card>
                 
-<<<<<<< HEAD:tech-today/src/Components/Content/Gamers/GameContent.js
                 <Card className="cards-box" border="warning">
                     <a target="_blank" href="https://nyti.ms/2NEhe5q">
                     <Card.Img variant="top" src="https://wrctr.co/38a4nBt" />
@@ -74,15 +57,6 @@ const GameContent = () => {
                     <Card.Body>
                     <a target="_blank" href="https://nyti.ms/2NEhe5q">
                         <Card.Title className="title-jj">5 of the Best Couch Co-op Games for Nintendo Switch</Card.Title>
-=======
-                <Card>
-                    <a target="_blank" rel="noopener noreferrer" href="https://nyti.ms/2NEhe5q">
-                    <Card.Img variant="top" src="https://wrctr.co/38a4nBt" />
-                    </a>
-                    <Card.Body>
-                    <a target="_blank" rel="noopener noreferrer" href="https://nyti.ms/2NEhe5q">
-                        <Card.Title>5 of the Best Couch Co-op Games for Nintendo Switch</Card.Title>
->>>>>>> bb9d47e19031288d2498ddc274fcc1dead3c7886:tech-today/src/Components/HomeContent/HomeContent.js
                         </a>
                         <Card.Text>
                            Staff at Wirecutter shared some of their favorite split-screen, couch co-op games for the Nintendo Switch that are great for playing at home and with family.
