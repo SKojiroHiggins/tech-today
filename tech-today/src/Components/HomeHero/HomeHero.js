@@ -10,8 +10,8 @@ class HomeHero extends React.Component {
                 <section className="heroSection">
                     <div className="heroImage">
                         <div className="heroInfo">
-                            <h1>Tech Today</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                            <h1>The Verge</h1>
+                            <p>TUESDAY, JUNE 30, 2020 APPLY PRESSURE FOR MOVEMENT</p>
                             <button className="darwinHero-btn"><Link to="/contact" className="darwinHero-btn">Contact Us</Link></button>
                         </div>
                     </div>

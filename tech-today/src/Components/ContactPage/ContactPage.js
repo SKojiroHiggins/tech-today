@@ -17,12 +17,12 @@ const contactPage = () => {
                     <div>
                         <h2 className="InfoTitle-0">Our Personal Information</h2>
                         <h3 className="Info-H3s">(555) 666-7777</h3>
-                        <h3 className="Info-H3s">tech.today@gmail.com</h3>
+                        <h3 className="Info-H3s">theverge@gmail.com</h3>
                         <h3 className="Info-H3s">123 Main Street</h3>
                     </div>
                 </div>
                 <div className="darwinFormContainer">
-                    <form className="darwinForm" name="contact" method="POST">
+                    <form className="darwinForm" name="contact" method="POST" action="https://formsubmit.co/darwingaldamez5@gmail.com">
                         <label for="fname">First Name</label>
                         <input type="text" className="fname" id="input-0" name="firstname" placeholder="Your name.." required />
 
