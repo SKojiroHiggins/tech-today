@@ -1,19 +1,19 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import '../ContentHero/ContentHero.css'
+import '../GameHero/ContentHero.css'
 
 
-const ContentHero = () => {
+const ScienceHero = () => {
     return (
         <div className="hero">
             <div className='gif'>
 
                 <Card className="bg-dark text-white">
-                    <Card.Img src="https://bit.ly/2BBkvjc" alt="Gaming GIF" />
+                    <Card.Img className="sciences-hero"src="https://cdn.dribbble.com/users/32512/screenshots/3363261/the_wave_natural_ai_by_gleb.gif" alt="Science GIF" />
                     <Card.ImgOverlay>
-                        <Card.Title>Gaming</Card.Title>
+                        <Card.Title className="gaming-title">Science</Card.Title>
                         <Card.Text>
-                        The latest tech news about the world's best (and sometimes worst) hardware, apps, and much more. From top companies like Google and Apple to tiny startups vying for your attention, Verge Tech has the latest in what matters in technology daily.
+                        Featuring the latest in daily science news, Verge Science is all you need to keep track of what’s going on in health, the environment, and your whole world. Through our articles, we keep a close eye on the overlap between science and technology news 
                         </Card.Text>
                     </Card.ImgOverlay>
                 </Card>
@@ -52,4 +52,4 @@ const ContentHero = () => {
     );
 }
 
-export default ContentHero;
+export default ScienceHero;

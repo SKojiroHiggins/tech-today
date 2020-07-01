@@ -32,9 +32,9 @@ const navbar = (props) => {
                     <li><Link className={sciencePageClass} to="/science">Science</Link></li>
                     <li><Link className={spacePageClass} to="/space">Space</Link></li>
                     <li><Link className={contactPageClass} to="/contact">Contact</Link></li>
-                    <li><Link className={signupPageClass} to="/SignUp">Sign Up</Link></li>
-                    <li><Link className={loginPageClass} to="/Login">Login</Link></li>
-                    <li><Link className="signInPage" to="/signIn">Sign In</Link></li>
+                    {/* <li><Link className={signupPageClass} to="/SignUp">Sign Up</Link></li> */}
+                    {/* <li><Link className={loginPageClass} to="/Login">Login</Link></li> */}
+                    <li><Link className="signInPage" to="/Signup">Sign In</Link></li>
 
                 </ul>
             </nav>
@@ -50,8 +50,8 @@ const navbar = (props) => {
                         <li><Link className={sciencePageClass} to="/science">Science</Link></li>
                         <li><Link className={spacePageClass} to="/space">Space</Link></li>
                         <li><Link className={contactPageClass} to="/contact">Contact</Link></li>
-                        <li><Link className={signupPageClass} to="/SignUp">Sign In</Link></li>
-                        <li><Link to="/signIn">Sign In</Link></li>
+                        {/* <li><Link className={signupPageClass} to="/signup">Sign In</Link></li> */}
+                        <li><Link to="/Signup">Sign In</Link></li>
                     </ul>
                 </div>
             </nav>
