@@ -8,12 +8,14 @@
     display: flex;
     flex-direction: column;
 }
-.footer .footer__bottom {
+#footer__bottom-font {
+    font-size: 0.5rem;
+}
+.footer .footer__bottom-font {
     width: 100%;
     height: 7vh;
     border-top: 0.5px solid #343434;
     background-color: #060606;
-    font-size: 0.2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,17 +117,21 @@
     color: #b1b1b1;
     margin-bottom: 1.5rem;
 }
-input {
+.footer__input {
     height: 1.9rem;
+    line-height: 1rem;
+    font-size: 0.8rem;
+    text-align: left;
 }
-.footer__btn {
+.footer__vergebtn {
     background: #e2127a;;
     color: white;
     border: 1px solid black;
     height: 3.75rem;
     width: 40%;
+    font-size: 1rem;
 }
-.footer__btn:hover {
+.footer__vergebtn:hover {
     background: #e2127ac7;
     transition: all ease-in-out 0.3s;
     cursor: pointer;
@@ -162,8 +168,10 @@ and (max-device-width : 1024px)  {
         width: 60%;
     }
     .footer__input,
-    .footer__btn {
+    .footer__vergebtn {
         width: 100%;
+        font-size: 1.1rem;
+        text-align: center;
     }
     .footer__content-links {
         display: flex;
@@ -205,8 +213,10 @@ and (max-device-width : 568px) {
         flex-direction: column;
     }
     .footer__input,
-    .footer__btn {
+    .footer__vergebtn {
         width: 100%;
+        font-size: 1rem;
+        text-align: center;
     }
     .footer__content-links {
         display: flex;

@@ -14,10 +14,17 @@ body {
 }
 
 /* Navbar */
+<<<<<<< HEAD
+.hamburger {
+  min-height: 100%;
+}
+
+=======
 
 .hamburger {
   min-height: 100%;
 }
+>>>>>>> origin/dev
 #navbar {
   background: black;
   overflow: auto;
