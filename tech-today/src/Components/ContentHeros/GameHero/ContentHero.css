@@ -35,10 +35,10 @@
         display: grid;
         row-gap: 20px;
     }
-    .card{
+    /* .card{
         width: 55rem;
         height: 20rem; 
-    }
+    } */
     .video-its{
         width: 55rem;
         height: 20rem;
