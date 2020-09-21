@@ -1,4 +1,5 @@
 # The Verge
+Below you'll find information regarding this project.
 
 # Introduction
 
